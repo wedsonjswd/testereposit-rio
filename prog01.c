@@ -7,7 +7,7 @@ int main()
 {
     system("chcp 65001>null"); //Configuração para UFT-8 no windows
     
-    int numero = 5;
+    int numero = 13; //alterado
     int num_fat = calc_fat(numero);
     printf("\nO fatorial de %d eh: %d", numero, num_fat);
     return 0;
